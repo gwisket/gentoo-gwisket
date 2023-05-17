@@ -22,5 +22,7 @@ src_prepare() {
    default
 
    rm -r D2Coding D2CodingLigature
+   mv D2CodingAll/* .
+   rmdir D2CodingAll
 }
 
