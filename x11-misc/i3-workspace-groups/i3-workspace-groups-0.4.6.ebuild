@@ -18,7 +18,7 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}
-    dev-python/python-i3ipc
+    dev-python/i3ipc
     >=x11-wm/i3-4.14
     >=dev-lang/python-3.11"
 
