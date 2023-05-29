@@ -7,6 +7,6 @@ command_background=true
 pidfile="/run/${RC_SVCNAME}.pid"
 
 depend() {
-	after local-fs 
-	need local-fs 
+	after localmount
+	need localmount
 }
