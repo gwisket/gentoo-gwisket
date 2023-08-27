@@ -3,4 +3,5 @@
 name="$RC_SVCNAME"
 description="Linux KMS/DRM based virtual Console Emulator"
 command="/usr/bin/kmscon"
+command_background=true
 pidfile="/run/${RC_SVCNAME}.pid"
