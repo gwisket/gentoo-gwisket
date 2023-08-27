@@ -4,6 +4,3 @@ name="$RC_SVCNAME"
 description="Linux KMS/DRM based virtual Console Emulator"
 command="/usr/bin/kmscon"
 pidfile="/run/${RC_SVCNAME}.pid"
-
-depend() {
-}
